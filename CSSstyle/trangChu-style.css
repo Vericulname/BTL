@@ -1,0 +1,310 @@
+﻿html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rectangle {
+    box-sizing: border-box;
+    margin: 10px;
+    height: 1px;
+    border: 1px solid;
+    width: 100%;
+}
+
+/*.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.wrap {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.title {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*body {
+    flex-direction: column;
+}*/
+
+/*.display-flex {
+    display: flex;
+}*/
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.small-header {
+    align-items: center;
+    max-width: 1200px;
+}
+
+.info {
+}
+
+.space {
+    flex: 1;
+}
+
+.acc {
+    align-items: center;
+    list-style: none;
+}
+
+    .acc > li {
+        align-items: center;
+        margin: 10px;
+    }
+
+.header {
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.header-wrap {
+    max-width: 1200px;
+    height: 20px;
+    justify-content: space-around;
+    /* margin: 20px; */
+    width: 70%;
+}
+
+.logo {
+    padding-right: 2.5rem;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.search-box {
+    align-items: stretch;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 20px;
+    width: 100%;
+}
+
+.search-bar {
+    align-items: stretch;
+    width: 100%;
+    height: 40px;
+}
+
+    .search-bar > input {
+        align-items: stretch;
+        width: inherit;
+        margin-right: 10px;
+    }
+
+
+
+.home-banner {
+    /* flex-direction: column; */
+    /* align-items: center;  */
+}
+
+.home-banner-wrap {
+    flex-direction: column;
+    height: 300px;
+    background-color: antiquewhite;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.banner {
+    height: inherit;
+    background-color: aqua;
+}
+
+.category-wrap {
+    margin: 10px;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.category-list-wrap {
+    display: flex;
+    width: 100%;
+    background-color: palegreen;
+    height: 100%;
+    /* align-items: center; */
+    overflow-x: hidden;
+}
+
+.category-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    list-style-type: disc;
+    height: 300px;
+}
+
+.category-item {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+}
+
+.category-pic {
+    width: inherit;
+    height: 70%;
+    object-fit: contain;
+}
+
+.category-name {
+    width: inherit;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    flex: 1;
+    background-color: red;
+}
+
+.category-wrap .title {
+    padding: 30px;
+    font-size: 21px;
+}
+
+.item-list {
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    flex-direction: column;
+    padding: 4px;
+}
+
+    .item > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+.item-info {
+    flex-direction: column;
+}
+
+.item-price-n-sale {
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    align-items: stretch;
+    gap: 100px;
+}
