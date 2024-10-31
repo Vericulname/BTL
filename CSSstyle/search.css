@@ -1,0 +1,31 @@
+﻿.nav-bar {
+    flex-direction: row;
+}
+.nav-bar>*{
+    margin:10px;
+}
+.item-list {
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.item {
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+    flex-direction: column;
+    padding: 4px;
+}
+    .item > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+.item-info {
+    flex-direction: column;
+}
+
+.item-price-n-sale {
+    justify-content: space-between;
+    align-items: center;
+}

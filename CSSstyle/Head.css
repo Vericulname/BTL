@@ -1,4 +1,94 @@
-﻿.center {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,11 +97,19 @@ body {
     flex-direction: column;
 
 }
+.wrap {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+}
 main {
     flex: 1;
     position: relative;
     flex-direction: column;
     margin-top: 118px;
+    max-width: 1200px;
+    width:100%;
 }
 header {
     position: fixed;
@@ -81,8 +179,22 @@ header {
     height: 40px;
 }
 
-    .search-bar > input {
+.search-bar > input {
         align-items: stretch;
         width: inherit;
         margin-right: 10px;
-    }
+}
+footer {
+    display: flex;
+    max-width: 1400px;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.rectangle {
+    box-sizing: border-box;
+    margin: 10px;
+    height: 1px;
+    border: 1px solid;
+    width: 100%;
+}   

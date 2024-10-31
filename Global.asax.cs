@@ -17,11 +17,11 @@ namespace BTL
         {
             return new List<items>
             {
-                new items(0,"áo nam trắng","mô tả","ao-nam","img\\items\\ao-nam1.jpg",120, 12),
-                new items(1,"áo nam đen","mô tả","ao-nam","img\\items\\ao-nam2.jpg", 12344, 20),
-                new items(2,"áo nữ trắng","mô tả","ao-nu","img\\items\\ao-nu1.jpg", 5511, 12),
-                new items(3,"áo nữ đen","mô tả","ao-nu","img\\items\\ao-nu2.jpg", 515125, 10),
-                new items(4,"điện thoại ipop","mô tả","phone","img\\items\\dien-thoai1.jpg", 12414, 20)
+                new items(1,"áo nam trắng","mô tả","ao-nam","img\\items\\ao-nam1.jpg",120, 12),
+                new items(2,"áo nam đen","mô tả","ao-nam","img\\items\\ao-nam2.jpg", 12344, 20),
+                new items(3,"áo nữ trắng","mô tả","ao-nu","img\\items\\ao-nu1.jpg", 5511, 12),
+                new items(4,"áo nữ đen","mô tả","ao-nu","img\\items\\ao-nu2.jpg", 515125, 10),
+                new items(5,"điện thoại ipop","mô tả","phone","img\\items\\dien-thoai1.jpg", 12414, 20)
 
             }; 
         }

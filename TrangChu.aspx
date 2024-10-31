@@ -5,9 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <% List<BTL.Oject.items> itemslist = Application[BTL.Global.item] as List<BTL.Oject.items>; %>
-     
-     <div class="wrap">
-         <main class="display-flex">
+    
+
              <!-- <div class="home-banner display-flex "> -->
              <div class="home-banner-wrap display-flex ">
                  <div class="banner"></div>
@@ -110,7 +109,7 @@
          </div> -->
              </div>
 
-         </main>
-     </div>
+     
+ 
      
 </asp:Content>

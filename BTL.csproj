@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSSstyle\item.css" />
+    <Content Include="CSSstyle\search.css" />
     <Content Include="Global.asax" />
     <Content Include="CSSstyle\Head.css" />
     <Content Include="img\category\ao-nam.jpg" />
@@ -85,6 +87,7 @@
     <Content Include="img\items\may-giat2.jpg" />
     <Content Include="img\items\may-tinh1.jpg" />
     <Content Include="img\items\may-tinh2.jpg" />
+    <Content Include="search.aspx" />
     <Content Include="TrangChuTest.aspx" />
     <Content Include="CSSstyle\trangChu-style.css" />
     <Content Include="Web.config" />
@@ -103,6 +106,13 @@
     </Compile>
     <Compile Include="head.Master.designer.cs">
       <DependentUpon>head.Master</DependentUpon>
+    </Compile>
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
     </Compile>
     <Compile Include="TrangChuTest.aspx.cs">
       <DependentUpon>TrangChuTest.aspx</DependentUpon>

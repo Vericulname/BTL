@@ -16,6 +16,7 @@
     <div class="small-header display-flex">
         <div class="info display-flex">
             
+
         </div>
         <div class="space"> </div>
         <ul class="acc display-flex">
@@ -29,7 +30,7 @@
     <nav class="header display-flex">
         <div class="header-wrap display-flex">
             <img class="logo" src="" alt="">
-            <form class="search-bar display-flex" action="">
+            <form class="search-bar display-flex" action="search.aspx" id="search-box">
                 <input type="text" name="" value="tìm kiếm">
                 <button class="search">Tìm</button>
             </form>
@@ -37,7 +38,7 @@
     </nav>
 
 </header>
-   <main>
+   <main class="display-flex">
  
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
